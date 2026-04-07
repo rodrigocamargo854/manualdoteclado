@@ -12,7 +12,7 @@ body{font-family:system-ui,sans-serif;background:#09090f;color:#f0ede8;min-heigh
 .nav-tab{padding:6px 14px;border-radius:6px;font-size:12px;font-weight:500;cursor:pointer;color:rgba(240,237,232,0.45);border:none;background:none;}
 .nav-tab:hover{color:#f0ede8;}
 .nav-tab.active{background:rgba(186,117,23,0.15);color:#FAC775;}
-.page{display:none;}.page.active{display:block;}
+.page { max-width: 900px; margin: 0 auto; }
 .hero{background:linear-gradient(135deg,#09090f,#1a1028 60%,#0a1a2e);padding:2.5rem 1.5rem 3rem;border-bottom:1px solid rgba(255,255,255,0.06);}
 .hero-badge{display:inline-block;background:rgba(186,117,23,0.2);border:1px solid rgba(186,117,23,0.35);color:#FAC775;font-size:10px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;padding:3px 10px;border-radius:4px;margin-bottom:1rem;}
 .hero h1{font-size:28px;font-weight:600;line-height:1.2;margin-bottom:.5rem;}
@@ -92,9 +92,9 @@ body{font-family:system-ui,sans-serif;background:#09090f;color:#f0ede8;min-heigh
 .nc.sc{background:rgba(99,153,34,0.2);color:#97C459;border:1px solid rgba(99,153,34,0.3);}
 .nc.bl{background:rgba(186,117,23,0.2);color:#FAC775;border:1px solid rgba(186,117,23,0.3);}
 .nc.ap{background:rgba(55,138,221,0.2);color:#85B7EB;border:1px solid rgba(55,138,221,0.3);}
-.pw{display:flex;flex-direction:column;align-items:center;margin:1rem 0;}
+.pw { overflow-x: auto; }
 .plbl{font-size:11px;color:rgba(240,237,232,0.4);margin-bottom:.5rem;text-transform:uppercase;letter-spacing:.08em;}
-.piano{position:relative;height:110px;background:transparent;}
+.piano { min-width: 448px; }
 .wk{width:32px;height:110px;background:#f5f0e8;border:1px solid #999;border-radius:0 0 4px 4px;position:absolute;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;padding-bottom:4px;cursor:pointer;z-index:1;}
 .wk:hover{background:#e8e0d0;}.wk.sc{background:#97C459;}.wk.root{background:#F09595;}.wk.bl{background:#FAC775;}.wk.ap{background:#85B7EB;}
 .bk{width:20px;height:68px;background:#1a1a1a;border:1px solid #000;border-radius:0 0 3px 3px;position:absolute;top:0;z-index:2;cursor:pointer;display:flex;align-items:flex-end;justify-content:center;padding-bottom:3px;}
